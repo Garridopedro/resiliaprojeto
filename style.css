@@ -221,12 +221,15 @@ button{
     gap: 0.3em;
 }
 
-@media(max-width:500px){
+@media(max-width:480px){
     h1{
       font-size: 50px;
       margin-top: 0%;  
     }
     body{
+        background-size: auto;
+    }
+    .body-start{
         background-size: auto;
     }
     .start{
