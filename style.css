@@ -234,6 +234,7 @@ button{
     color: red;
     margin-top: 15%;
     font-size: 150px;
+    text-align: center;
 }
 
 .cor-gameover{
@@ -278,7 +279,7 @@ button{
         background-size: auto;
     }
     .body-start{
-        margin-top: 70%;
+        margin-top: 50%;
     }
     .start{
        font-size: 70px;
