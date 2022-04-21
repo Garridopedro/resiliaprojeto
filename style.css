@@ -259,15 +259,12 @@ button{
     }
     body{
         background-size: auto;
-        
+    }
+    .body-start{
+        margin-top: 20%;
     }
     .start{
-       text-align: center;
-       display: flex;
-       margin-top: 150%;
        font-size: 70px;
-       
-
     }
     .nomejogo{
         text-align: center;
