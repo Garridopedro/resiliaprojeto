@@ -3,6 +3,7 @@ body{
     background-size: 100%;
     background-image: url(../fundo.jpg);
 }
+
 .body-start{
     font-family: 'M PLUS 1', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -55,10 +56,9 @@ h1 {
     color: white;
 }
 
-
 .personagens {
     margin: 0px;
-    padding: 40px;
+    padding: 0%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -74,7 +74,6 @@ h1 {
     font-size: 20px;
 }
 
-
 .morty {
     font-family: 'M PLUS 1', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -82,7 +81,6 @@ h1 {
     font-size: 20px;
     background-color: black;
 }
-
 
 .jerry {
     font-family: 'M PLUS 1', sans-serif;
@@ -121,11 +119,15 @@ h1 {
     text-align: center;
 }
 
-img{
-    width: 200px;
+.imgrick:hover {
+    transform: scale(1.5, 1.5);
 }
 
-img:hover {
+.imgmorty:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.imgjerry:hover {
     transform: scale(1.5, 1.5);
 }
 
@@ -133,21 +135,23 @@ img:hover {
     padding: 0px;
     margin: 0px;
     margin-left: -40px;
+    width: 200px;
 }
 
 .imgmorty{
     padding: 0px;
     margin: 0px;
-    width: 300px;
+    width: 250px;
     margin-left: -220px;
 }
 
 .imgjerry{
     padding: 0;
     margin: 0;
-    width: 250px;
+    width: 270px;
     margin-left: -290px;
 }
+
 .nomes{
     font-family: 'M PLUS 1', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -160,7 +164,12 @@ img:hover {
     margin: 0px;
 }
 
-.botao-historia{
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+button{
     font-size:15px;
     font-family:Arial;
     width:140px;
@@ -177,16 +186,16 @@ img:hover {
     text-shadow:inset 0px 1px 0px black;
     background:linear-gradient(grey, black);
     margin-top: 50px ;
-}
-
-.botao-historia:hover{
-    transform: scale(1.1);
-    transition: all 0.5s;
+    cursor: pointer;   
 }
 
 .corbotao{
     color: rgb(20, 219, 20);
     font-size: 20px;
+}
+
+.cor-responder{
+    color: rgb(20, 219, 20);
 }
 
 .introducao{
@@ -206,4 +215,66 @@ img:hover {
     padding: 0.5em;
     text-align: center;
     gap: 0.3em;
+}
+
+@media(max-width:500px){
+    h1{
+      font-size: 50px;
+      margin-top: 0%;  
+    }
+    body{
+        background-size: auto;
+    }
+    .start{
+        padding: 100%;
+        font-size: 70px;
+    }
+    .nomejogo{
+        text-align: center;
+    }
+    .personagens{
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+    }
+    .imgrick{
+        margin-top: -70px;
+        width: 150px;
+        margin-left: -60px;
+    }
+    .imgmorty{
+        margin-left: -110px;
+    }
+    .imgjerry{
+        margin-left: -140px;
+    }
+    .nomes{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    h1{
+        text-align: center;
+    }
+    body{
+        background-size: auto;
+    }
+    
+}
+
+@media(max-width:1024px){
+    h1{
+        text-align: center;
+    }
+    body{
+        background-size: auto;
+    }
+    
+}
+
+@media(max-width:1200px){
+    body{
+        background-size: auto;
+    }
 }

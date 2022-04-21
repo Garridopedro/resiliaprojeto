@@ -1,3 +1,3 @@
 function introduzFase(){
-    
+    alert("Olá")
 }
