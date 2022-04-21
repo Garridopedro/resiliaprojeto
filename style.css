@@ -292,15 +292,23 @@ button{
         flex-direction: column;
         gap: 75px;
     }
+
+    .titulo-personagens{
+        text-align: center;
+        font-size: 50px;
+    }
+
     .imgrick{
-        margin-top: -70px;
+        margin-top: -40px;
         width: 150px;
         margin-left: -60px;
     }
     .imgmorty{
+        margin-top: -100px;
         margin-left: -110px;
     }
     .imgjerry{
+        margin-top: -80px;
         margin-left: -140px;
     }
     .nomes{
