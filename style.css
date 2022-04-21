@@ -1,0 +1,191 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/fundo.jpg);
+}
+.body-start{
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    margin: 0px;
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.body-historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-size: 100px;
+    color: black;
+    margin: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-personagem {
+    font-size: 55px;
+    margin-left: -14px;
+    padding: 50%;
+    width: 50px;
+    align-items: center;
+}
+
+.p1 {
+    color: white;
+}
+
+.p2 {
+    color: white;
+}
+
+.p3 {
+    color: white;
+}
+
+
+.personagens {
+    margin: 0px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.rick {
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+.morty {
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+
+.jerry {
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+
+.rick:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.morty:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+
+.jerry:hover {
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+
+.start:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: rgb(230, 13, 13);
+}
+
+.start{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+img:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.imgrick{
+    padding: 0px;
+    margin: 0px;
+    margin-left: -40px;
+}
+
+.imgmorty{
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    margin-left: -220px;
+}
+
+.imgjerry{
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    margin-left: -290px;
+}
+.nomes{
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-size: 70px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+}
+
+.botao-historia{
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:black;
+    border-color:#333333;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px grey;
+    text-shadow:inset 0px 1px 0px black;
+    background:linear-gradient(grey, black);
+}
+
+.botao-historia:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.corbotao{
+    color: rgb(20, 219, 20);
+    font-size: 20px;
+}
+
+  
