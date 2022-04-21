@@ -1,7 +1,7 @@
 body{
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/imagens/fundo.jpg);
+    background-image: url("./imagens/fundo.jpg");
 }
 
 .body-start{
