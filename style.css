@@ -4,6 +4,10 @@ body{
     background-image: url("./imagens/fundo.jpg");
 }
 
+a{
+    text-decoration: none;
+}
+
 .body-start{
     font-family: 'M PLUS 1', sans-serif;
     font-family: 'Open Sans', sans-serif;
