@@ -260,6 +260,15 @@ button{
     color: white;
 }
 
+.botao-jogar{
+    display: flex;
+    justify-content: center;
+}
+
+.cor-jogar{
+    color: white;
+}
+
 @media(max-width:480px){
     h1{
       font-size: 50px;
