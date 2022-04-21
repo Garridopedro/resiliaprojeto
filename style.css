@@ -121,6 +121,7 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 15% ;
 }
 
 .imgrick:hover {
@@ -216,9 +217,39 @@ button{
     background-color: rgba(255, 255, 255, 0.700);
     font-weight: 400;
     font-size: 2.0rem;
-    padding: 0.5em;
+    padding: -10px;
     text-align: center;
     gap: 0.3em;
+}
+
+.gameover{
+    color: red;
+    margin-top: 15%;
+    font-size: 150px;
+}
+
+.cor-gameover{
+    color: white;
+}
+
+.botao-gameover{
+    display: flex;
+    justify-content: center;
+}
+
+.vocevenceu{
+    color: purple;
+    margin-top: 15%;
+    font-size: 150px;
+}
+
+.botao-vocevenceu{
+    display: flex;
+    justify-content: center;
+}
+
+.cor-vocevenceu{
+    color: white;
 }
 
 @media(max-width:480px){
@@ -269,6 +300,9 @@ button{
     body{
         background-size: auto;
     }
+    .start{
+        margin-top: 50%;
+    }
     
 }
 
@@ -279,11 +313,19 @@ button{
     body{
         background-size: auto;
     }
+
+    .start{
+        margin-top: 50%;
+    }
     
 }
 
 @media(max-width:1200px){
     body{
         background-size: auto;
+    }
+
+    .start{
+        margin: 30%;
     }
 }
