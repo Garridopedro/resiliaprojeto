@@ -1,7 +1,7 @@
 body{
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(/fundo.jpg);
+    background-image: url(../fundo.jpg);
 }
 .body-start{
     font-family: 'M PLUS 1', sans-serif;
