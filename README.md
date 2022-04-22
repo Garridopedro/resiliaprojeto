@@ -9,4 +9,4 @@ O projeto tem como objetivo a construção de um jogo baseado em texto com utili
 -Luis Eduardo<br>
 
 Tema escolhido pela equipe: <b>Séries</b><br>
-Tema escolhido por mim : <b>Rick e Morty</b>
+Tema escolhido por mim: <b>Rick e Morty</b>
