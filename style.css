@@ -54,7 +54,7 @@ h1 {
     margin-bottom: 40px;
 }
 
-.titulo-rick{
+.titulo-fase{
     text-align: center;
 }
 
@@ -236,8 +236,8 @@ button{
 
 .gameover{
     color: red;
-    margin-top: 15%;
-    font-size: 150px;
+    margin-top: 10%;
+    font-size: 100px;
     text-align: center;
 }
 
@@ -283,7 +283,7 @@ button{
         background-size: auto;
     }
     .body-start{
-        margin-top: 50%;
+        margin-top: 42%;
     }
     .start{
        font-size: 70px;
@@ -309,7 +309,7 @@ button{
     }
     .imgmorty{
         margin-top: -100px;
-        margin-left: -110px;
+        margin-left: -120px;
     }
     .imgjerry{
         margin-top: -80px;
@@ -317,6 +317,12 @@ button{
     }
     .nomes{
         display: none;
+    }
+    .gameover{
+        font-size: 46px;
+    }
+    .vocevenceu{
+        font-size: 70px;
     }
 }
 
@@ -329,6 +335,10 @@ button{
     }
     .start{
         margin-top: 50%;
+    }
+    .personagens{
+        display: flex;
+        justify-content: space-between;
     }
     
 }
@@ -344,7 +354,19 @@ button{
     .start{
         margin-top: 50%;
     }
-    
+    .personagens{
+        display: flex;
+        justify-content: space-between;
+    }
+    .imgrick{
+        margin-left: 15px;
+    }
+    .imgjerry{
+        margin-right: 30px;
+    }
+    .imgmorty{
+        margin-right: -20px;
+    }
 }
 
 @media(max-width:1200px){
@@ -354,5 +376,17 @@ button{
 
     .start{
         margin: 30%;
+    }
+    .vocevenceu{
+        text-align: center;
+    }
+    .imgmorty{
+        margin-right: -60px;
+    }
+    .imgjerry{
+        margin-right: -80px;
+    }
+    .imgrick{
+        margin-left: -80px;
     }
 }
